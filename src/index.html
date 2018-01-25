@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, Vue!</title>
+    <style>
+      .main {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #35495e;
+        background-color: #42b883;
+      }
+      .is-large {
+        font-size: 50px;
+      }
+      .checkout {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <router-view>Loading...</router-view>
+    </div>
+
+    <script src="./vendors/vue.js"></script>
+    <script src="./vendors/vue.router.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
