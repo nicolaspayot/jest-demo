@@ -2,6 +2,11 @@
 
 > Live coding content for Jest demo during SnowCampIO 2018: http://slides.com/npayot/snowcamp2018-modern-js-testing
 
+## Requirements
+
+- Chrome V61+ (use of ES6 module directly in the browser)
+- Recent version of node / npm / yarn
+
 ## Usage
 
 ```bash
