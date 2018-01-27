@@ -9,6 +9,8 @@
 
 ## Usage
 
+### For `yarn` fans
+
 ```bash
 yarn # install dependencies
 ```
@@ -20,4 +22,19 @@ yarn start # start HTTP server for API on http://127.0.0.1:3000
 ```bash
 yarn test
 yarn test --watch
+```
+
+### For `npm` fans
+
+```bash
+npm install # install dependencies
+```
+
+```bash
+npm start # start HTTP server for API on http://127.0.0.1:3000
+```
+
+```bash
+npm test
+npm test -- --watch
 ```
