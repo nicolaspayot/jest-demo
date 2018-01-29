@@ -4,8 +4,8 @@
 
 ## Requirements
 
-- Chrome V61+ (use of ES6 module directly in the browser)
-- Recent version of node / npm / yarn
+- Chrome V61+ (use of ES6 modules directly in the browser)
+- node v8+ (use of `async` / `await`) / npm / yarn
 
 ## Usage
 
