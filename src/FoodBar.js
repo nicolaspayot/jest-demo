@@ -1,7 +1,7 @@
 import { api } from './api.js';
 
 export default {
-  template: `
+  template: /*html*/`
     <div class="main">
       <h1>Welcome to Vue food bar!</h1>
       <span class="is-large">🍔</span> <button id="burger" @click="add('🍔')">Add 1</button>
