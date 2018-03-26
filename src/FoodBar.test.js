@@ -36,9 +36,6 @@ describe('FoodBar component', () => {
   });
 
   it('should confirm order', async () => {
-    wrapper.find('#burger').trigger('click');
-    wrapper.find('#fries').trigger('click');
-
     await wrapper.vm.checkout();
     expect(wrapper.vm.$router.push).toHaveBeenCalledWith('/confirm');
   });
