@@ -2,17 +2,17 @@
 
 exports[`FoodBar component should match snapshot 1`] = `
 <div class="main">
-    <h1>Welcome to Vue food bar!</h1> <span class="is-large">🍔</span>
-    <button id="burger">Add 1</button> <span class="is-large">🥤</span>
-    <button id="drink">Add 1</button> <span class="is-large">🍟</span>
-    <button id="fries">Add 1</button> <span class="is-large">🍦</span>
-    <button id="ice-cream">Add 1</button>
-    <div id="menu">
-        <h2>Here's what your ordered:</h2>
-        <div class="is-large"><span>👉</span> <span>🍔🍟🥤🍦</span></div>
-        <div class="checkout">
-            <button>Checkout!</button>
-        </div>
+  <h1>Welcome to Vue food bar!</h1> <span class="is-large">🍔</span>
+  <button id="burger">Add 1</button> <span class="is-large">🥤</span>
+  <button id="drink">Add 1</button> <span class="is-large">🍟</span>
+  <button id="fries">Add 1</button> <span class="is-large">🍦</span>
+  <button id="ice-cream">Add 1</button>
+  <div id="menu">
+    <h2>Here's what your ordered:</h2>
+    <div class="is-large"><span>👉</span> <span>🍔🍟🥤🍦</span></div>
+    <div class="checkout">
+      <button>Checkout!</button>
     </div>
+  </div>
 </div>
 `;
